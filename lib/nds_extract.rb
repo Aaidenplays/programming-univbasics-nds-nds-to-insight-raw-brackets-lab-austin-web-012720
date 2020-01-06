@@ -24,10 +24,6 @@ def directors_totals(nds)
   
   result = {}
   
-  # result =  {name: '',
-  #           total: 0
-  #           }
-  
   index1 = 0
   while index1 < nds.size
     director_name = nds[index1][:name]
